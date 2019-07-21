@@ -1,19 +1,19 @@
 
    -[[ general ]]---------
-	title : Cruz Exports (beta 4)
-	filename : cruz-b4.bsp
-	release date : August 8th, 2011
+	title : Cruz Exports (beta 5)
+	filename : cruz-b5.bsp
+	release date : August 11th, 2011
 
-	(Latest updated .map file included in maps folder for your convenience.)    
+	(Latest updated .map file included in maps folder.)    
 
    -[[ gameplay ]]---------
 	game mode : tremulous | tremulous.net
 	players: 6 - 20
 
    -[[ construction ]]---------
-	brushes: 14,990
-	entites: 385
-	build time : Beta 1 Started on August 30th, 2008, and released on January 28th, 2009.  Beta 3 released August 6th, 2011 for compatability with GPP/1.2beta.  It had a hunk_alloc error and was trashed along with its outdoor area.  Beta 4 was released August 9th, 2011, fixing these errors.
+	brushes: 14,999
+	entites: 392
+	build time : Beta 1 Started on August 30th, 2008, and released on January 28th, 2009.  Beta 3 released August 6th, 2011 for compatability with GPP/1.2beta.  It had a hunk_alloc error and was trashed along with its outdoor area.  Beta 4 was released August 9th, 2011, fixing these errors.  The other betas just contained minor gameplay improvements.
 			Official release thread: http://tremulous.net/forum/index.php?topic=10308.0
 	Compile time: 45 minutes
 	Build: -meta, -vis, -saveprt, -light -fast -filter -super 2
@@ -50,7 +50,7 @@
 	Speedy www.planetquake.com/speedy textures and shaders from "SpeedyTech"
 	Amethyst http://amethyst7.gotdoofed.com/ "fadeaway" skybox
 	Hugo from FilterForge.com for texture "Alien Skin"
-	Jesus my Lord and Saviour	
+	Jesus Christ my Lord and Saviour	
 
 	Models: Lt1 and BlackRayne Studios (br_utilities).
 		Shuriken82 from www.TurboSquid.com for "Scavenger" cargo ship idea, 
