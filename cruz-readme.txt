@@ -1,8 +1,8 @@
 
    -[[ general ]]---------
-	title : Cruz Exports (beta 5)
-	filename : cruz-b5.bsp
-	release date : August 11th, 2011
+	title : Cruz Exports (beta 6)
+	filename : cruz-b6.bsp
+	release date : August 19th, 2011
 
 	(Latest updated .map file included in maps folder.)    
 
@@ -11,7 +11,7 @@
 	players: 6 - 20
 
    -[[ construction ]]---------
-	brushes: 14,999
+	brushes: 14,992
 	entites: 392
 	build time : Beta 1 Started on August 30th, 2008, and released on January 28th, 2009.  Beta 3 released August 6th, 2011 for compatability with GPP/1.2beta.  It had a hunk_alloc error and was trashed along with its outdoor area.  Beta 4 was released August 9th, 2011, fixing these errors.  The other betas just contained minor gameplay improvements.
 			Official release thread: http://tremulous.net/forum/index.php?topic=10308.0
@@ -119,6 +119,6 @@
 		   AIM: yerfaes
    
    -[[ Installation ]]---------
-	Put the .pk3 into your tremulous/base folder
+	Move the .pk3 into your tremulous/base folder
 
 Thanks, and enjoy!
