@@ -235,7 +235,7 @@ textures/conveyor/gradient-white
   surfaceparm nomarks
   surfaceparm nonsolid
   surfaceparm nolightmap
-  qer_trans .5
+  qer_trans .9
   cull none
   {
     map textures/conveyor/gradient-white.jpg
@@ -294,5 +294,20 @@ textures/conveyor/alien_skin
 		rgbGen identity
 		tcGen lightmap 
 		blendfunc filter
+	}
+}
+textures/conveyor/black_no_s
+{
+	qer_editorimage textures/conveyor/black.jpg
+	surfaceparm nomarks
+	surfaceparm noimpact
+
+	{
+		map textures/conveyor/black.jpg
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		tcGen lightmap
 	}
 }

@@ -1,7 +1,7 @@
 
    -[[ general ]]---------
 	title : Cruz Exports
-	filename : cruz-b1.bsp
+	filename : cruz-b2.bsp
 	release date : January-February 2009
 	
 
@@ -14,6 +14,7 @@
 	Sound:  Www.SoundSnap.com
 
 	Nicolas "jex" Jansens | jex@orodu.net, for all the shaders and 	textures.
+	Overflow http://bobbin.vilkacis.net/ shaders and textures
 	Jan "Stannum" van der Weg, for shaders and textures.
 	Ingar for shiny shader.
 	Tim "Timbo" Angus, for shaders.
@@ -26,13 +27,19 @@
 	WinterSoldier for the [AC] Trem Mag. http://z7.invisionfree.com/the_crash/
 	2thecore http://2thecore.planetquake.gamespy.com/ for shaders and textures.
 	Brain http://imn2rc.einsteinbennyboy.com/ shader
-	TRaK http://trak.mercenariesguild.net/ textures
+	TRaK http://trak.mercenariesguild.net/ textures, 
+	and especially for the totally awesome custom conveyor belt texture, <3
+	
 	Gareth http://spacetaken.net/ -- Map: Citadel
 	Bezerk "This is Spam."
 	Taiyo.uk http://www.haosredro.com/ shader
 	Speedy www.planetquake.com/speedy textures and shaders from "SpeedyTech"
 	Amethyst http://amethyst7.gotdoofed.com/ "fadeaway" skybox
 	Hugo from FilterForge.com for texture "Alien Skin"
+	Mexel
+	Death on Ice
+	Einstein (thanks for the domain space <3)
+	Volt
 
 	Models: Lt1 and BlackRayne Studios (br_utilities).
 		Shuriken82 from www.TurboSquid.com for "Scavenger" cargo ship idea, 
@@ -64,10 +71,11 @@
 	players : 4-12
 
    -[[ construction ]]---------
-	brushes: 9960
-	entites: 284
+	brushes: 10,009
+	entites: 282
 	build time : Started on August 30th, 2008, finished  January 28th, 2009
-	Compile time: 20 minutes
+			Official release thread: http://tremulous.net/forum/index.php?topic=10308
+	Compile time: 30 minutes
 	Build: -meta, -vis, -light -fast -filter -super 2
 	software : gtkradiant 1.5.0 GODFATHER, q3map2build, PakScape, GIMP, Audacity, Photoscape.
 
