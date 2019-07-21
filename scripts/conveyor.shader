@@ -112,14 +112,33 @@ textures/conveyor/hax
 	surfaceparm slick
 }
 
-//Shader by Ingar, further modification by Face
+//Shader by Ingar
 textures/conveyor/shiny_gray
 {
-	qer_editorimage textures/conveyor/e8spacecrete.tga
+	qer_editorimage textures/conveyor/e8spacecrete.jpg
 //	q3map_surfacelight 50
 	surfaceparm nomarks
 	{
-		map textures/conveyor/e8spacecrete.tga
+		map textures/conveyor/e8spacecrete.jpg
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+                map textures/conveyor/envmap.tga
+                tcGen environment
+                blendfunc gl_dst_color gl_src_alpha
+        }
+}
+textures/conveyor/p_01_s
+{
+	qer_editorimage textures/conveyor/p_01.jpg
+//	q3map_surfacelight 50
+	surfaceparm nomarks
+	{
+		map textures/conveyor/p_01.jpg
 	}
 	{
 		map $lightmap
@@ -218,6 +237,20 @@ textures/conveyor/black_nonsolid
 		tcGen lightmap
 	}
 }
+textures/conveyor/white_nonsolid 
+{
+	qer_editorimage textures/conveyor/white.jpg
+	surfaceparm nonsolid
+	{
+		map textures/conveyor/white.jpg
+
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		tcGen lightmap
+	}
+}
 textures/conveyor/fog-bluish
 {
 qer_editorimage textures/conveyor/fog.tga
@@ -235,7 +268,7 @@ textures/conveyor/gradient-white
   surfaceparm nomarks
   surfaceparm nonsolid
   surfaceparm nolightmap
-  qer_trans .9
+  qer_trans .2
   cull none
   {
     map textures/conveyor/gradient-white.jpg
@@ -252,7 +285,7 @@ textures/conveyor/lolcow-white
 	q3map_lightsubdivide 256
 	q3map_surfacelight 250
 	surfaceparm sky
-	q3map_sun   1.00 1.00 1.0 150 150 50
+	q3map_sun   1.00 1.00 0.90 75 180 30
 	skyparms env/lolcow-white/lolcow-white - -
 }
 textures/conveyor/alien_skin
@@ -309,5 +342,93 @@ textures/conveyor/black_no_s
 		map $lightmap
 		blendfunc filter
 		tcGen lightmap
+	}
+}
+textures/conveyor/fridge
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/fridge.jpg
+		blendfunc filter
+	}
+}
+textures/conveyor/sf1
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/sf1.jpg
+		blendfunc filter
+	}
+}
+textures/conveyor/sf2
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/sf2.jpg
+		blendfunc filter
+	}
+}
+textures/conveyor/ad
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/ad.jpg
+		blendfunc filter
+	}
+}
+textures/conveyor/cexports
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/cexports.jpg
+		blendfunc filter
+	}
+}
+textures/conveyor/08
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/08.jpg
+		blendfunc filter
+	}
+}
+textures/conveyor/onlythebest
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/onlythebest.jpg
+		blendfunc filter
+	}
+}
+textures/conveyor/names
+{
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/conveyor/names.jpg
+		blendfunc filter
 	}
 }
