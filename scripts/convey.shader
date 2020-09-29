@@ -3,11 +3,11 @@
 textures/convey/moving
 {
 	surfaceparm	nonsolid
-	qer_editorimage textures/convey/conveyor2.jpg
+	qer_editorimage textures/convey/conveyor2
 	surfaceparm nomarks
 
 	{
-		map		textures/convey/conveyor2.jpg
+		map		textures/convey/conveyor2
 		tcMod		scroll	-1.562	0
 	}
 	{
@@ -18,11 +18,11 @@ textures/convey/moving
 textures/convey/moving2
 {
 	surfaceparm	nonsolid
-	qer_editorimage textures/convey/conveyor2.jpg
+	qer_editorimage textures/convey/conveyor2
 	surfaceparm nomarks
 
 	{
-		map		textures/convey/conveyor2.jpg
+		map		textures/convey/conveyor2
 		tcMod		scroll	1.562	0
 	}
 	{

@@ -1,11 +1,11 @@
 textures/conveyor/e8wrntrim2b
 {
-	qer_editorimage textures/conveyor/e8wrntrim2b.jpg
-	q3map_lightimage textures/conveyor/e8wrntrim2b.jpg
+	qer_editorimage textures/conveyor/e8wrntrim2b
+	q3map_lightimage textures/conveyor/e8wrntrim2b
 	surfaceparm nomarks
 	q3map_surfacelight 150
 	{
-		map textures/conveyor/e8wrntrim2b.jpg
+		map textures/conveyor/e8wrntrim2b
 	}
 	{
 		map $lightmap 
@@ -15,7 +15,7 @@ textures/conveyor/e8wrntrim2b
 }
 textures/conveyor/fog
 {
-qer_editorimage textures/conveyor/fog.tga
+qer_editorimage textures/conveyor/fog
 surfaceparm	trans
 surfaceparm	nonsolid
 surfaceparm	fog
@@ -26,38 +26,38 @@ fogparms ( 1 0.985429 0.892399 ) 1400
 }
 textures/conveyor/white_bulb_s
 {
-	qer_editorimage textures/conveyor/white_bulb.tga
+	qer_editorimage textures/conveyor/white_bulb
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
 	cull disable
 	qer_trans 0.5
 	{
-		map textures/conveyor/white_bulb.tga
+		map textures/conveyor/white_bulb
 		blendfunc gl_dst_color gl_src_alpha
 	}
 }
 textures/conveyor/bulb_red_s
 {
-	qer_editorimage textures/conveyor/bulb_red.tga
+	qer_editorimage textures/conveyor/bulb_red
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
 	cull disable
 	qer_trans 0.5
 	{
-		map textures/conveyor/bulb_red.tga
+		map textures/conveyor/bulb_red
 		blendfunc gl_dst_color gl_src_alpha
 	}
 	{
-		map textures/conveyor/bulb_red.tga
+		map textures/conveyor/bulb_red
 		blendfunc gl_dst_color gl_src_alpha
 	}
 }
 textures/conveyor/engine-core
 	{
-		qer_editorimage textures/conveyor/engine.tga
-		q3map_lightimage textures/conveyor/engine1.tga
+		qer_editorimage textures/conveyor/engine
+		q3map_lightimage textures/conveyor/engine1
 		q3map_globaltexture
 
 		surfaceparm noimpact
@@ -71,7 +71,7 @@ textures/conveyor/engine-core
 
 
 		{
-			map textures/conveyor/engine.tga
+			map textures/conveyor/engine
 			rgbGen const ( 0.5 0.5 0.5 )			
 			blendfunc add
 			tcMod turb .3 .2 1 .05
@@ -79,7 +79,7 @@ textures/conveyor/engine-core
 		}
 	
 		{
-			map textures/conveyor/engine1.tga
+			map textures/conveyor/engine1
 			rgbGen const ( 0.75 0.75 0.75 )			
 			blendfunc add
 			tcMod turb .2 .1 1 .05
@@ -89,7 +89,7 @@ textures/conveyor/engine-core
 }
 textures/conveyor/lolcow
 {
-	qer_editorimage textures/conveyor/lolcow.jpg
+	qer_editorimage textures/conveyor/lolcow
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_globaltexture
@@ -115,11 +115,11 @@ textures/conveyor/hax
 //Shader by Ingar
 textures/conveyor/shiny_gray
 {
-	qer_editorimage textures/conveyor/e8spacecrete.jpg
+	qer_editorimage textures/conveyor/e8spacecrete
 //	q3map_surfacelight 50
 	surfaceparm nomarks
 	{
-		map textures/conveyor/e8spacecrete.jpg
+		map textures/conveyor/e8spacecrete
 	}
 	{
 		map $lightmap
@@ -127,18 +127,18 @@ textures/conveyor/shiny_gray
 		tcGen lightmap 
 	}
 	{
-                map textures/conveyor/envmap.tga
+                map textures/conveyor/envmap
                 tcGen environment
                 blendfunc gl_dst_color gl_src_alpha
         }
 }
 textures/conveyor/p_01_s
 {
-	qer_editorimage textures/conveyor/p_01.jpg
+	qer_editorimage textures/conveyor/p_01
 //	q3map_surfacelight 50
 	surfaceparm nomarks
 	{
-		map textures/conveyor/p_01.jpg
+		map textures/conveyor/p_01
 	}
 	{
 		map $lightmap
@@ -146,18 +146,18 @@ textures/conveyor/p_01_s
 		tcGen lightmap 
 	}
 	{
-                map textures/conveyor/envmap.tga
+                map textures/conveyor/envmap
                 tcGen environment
                 blendfunc gl_dst_color gl_src_alpha
         }
 }
 textures/conveyor/tec_light_03_a7500
 {
-	qer_editorimage textures/conveyor/tec_light_03_a.TGA 
+	qer_editorimage textures/conveyor/tec_light_03_a.tga 
 	surfaceparm nomarks
 	q3map_surfacelight 7500
 	{
-		map textures/conveyor/tec_light_03_a.TGA
+		map textures/conveyor/tec_light_03_a.tga
 	}
 	{
 		map $lightmap 
@@ -165,17 +165,17 @@ textures/conveyor/tec_light_03_a7500
 		tcGen lightmap 
 	}
 	{
-		map textures/conveyor/tec_light_03_a_blend.TGA 
+		map textures/conveyor/tec_light_03_a_blend.tga 
 		blendfunc add
 	}
 }
 textures/conveyor/tec_light_03_a2500
 {
-	qer_editorimage textures/conveyor/tec_light_03_a.TGA 
+	qer_editorimage textures/conveyor/tec_light_03_a.tga 
 	surfaceparm nomarks
 	q3map_surfacelight 2500
 	{
-		map textures/conveyor/tec_light_03_a.TGA
+		map textures/conveyor/tec_light_03_a.tga
 	}
 	{
 		map $lightmap 
@@ -183,17 +183,17 @@ textures/conveyor/tec_light_03_a2500
 		tcGen lightmap 
 	}
 	{
-		map textures/conveyor/tec_light_03_a_blend.TGA 
+		map textures/conveyor/tec_light_03_a_blend.tga 
 		blendfunc add
 	}
 }
 textures/conveyor/tec_light_03_a1500
 {
-	qer_editorimage textures/conveyor/tec_light_03_a.TGA 
+	qer_editorimage textures/conveyor/tec_light_03_a.tga 
 	surfaceparm nomarks
 	q3map_surfacelight 1500
 	{
-		map textures/conveyor/tec_light_03_a.TGA
+		map textures/conveyor/tec_light_03_a.tga
 	}
 	{
 		map $lightmap 
@@ -201,17 +201,17 @@ textures/conveyor/tec_light_03_a1500
 		tcGen lightmap 
 	}
 	{
-		map textures/conveyor/tec_light_03_a_blend.TGA 
+		map textures/conveyor/tec_light_03_a_blend.tga 
 		blendfunc add
 	}
 }
 textures/conveyor/tec_light_03_a5500
 {
-	qer_editorimage textures/conveyor/tec_light_03_a.TGA 
+	qer_editorimage textures/conveyor/tec_light_03_a.tga 
 	surfaceparm nomarks
 	q3map_surfacelight 5500
 	{
-		map textures/conveyor/tec_light_03_a.TGA
+		map textures/conveyor/tec_light_03_a.tga
 	}
 	{
 		map $lightmap 
@@ -219,16 +219,16 @@ textures/conveyor/tec_light_03_a5500
 		tcGen lightmap 
 	}
 	{
-		map textures/conveyor/tec_light_03_a_blend.TGA 
+		map textures/conveyor/tec_light_03_a_blend.tga 
 		blendfunc add
 	}
 }
 textures/conveyor/black_nonsolid 
 {
-	qer_editorimage textures/conveyor/black.jpg
+	qer_editorimage textures/conveyor/black
 	surfaceparm nonsolid
 	{
-		map textures/conveyor/black.jpg
+		map textures/conveyor/black
 
 	}
 	{
@@ -239,10 +239,10 @@ textures/conveyor/black_nonsolid
 }
 textures/conveyor/white_nonsolid 
 {
-	qer_editorimage textures/conveyor/white.jpg
+	qer_editorimage textures/conveyor/white
 	surfaceparm nonsolid
 	{
-		map textures/conveyor/white.jpg
+		map textures/conveyor/white
 
 	}
 	{
@@ -253,7 +253,7 @@ textures/conveyor/white_nonsolid
 }
 textures/conveyor/fog-bluish
 {
-qer_editorimage textures/conveyor/fog.tga
+qer_editorimage textures/conveyor/fog
 surfaceparm	trans
 surfaceparm	nonsolid
 surfaceparm	fog
@@ -271,14 +271,14 @@ textures/conveyor/gradient-white
   qer_trans .2
   cull none
   {
-    map textures/conveyor/gradient-white.jpg
+    map textures/conveyor/gradient-white
     tcMod Scroll .3 0
     blendFunc add
   }
 }
 textures/conveyor/lolcow-white
 {
-	qer_editorimage textures/conveyor/lolcow-white.jpg
+	qer_editorimage textures/conveyor/lolcow-white
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_globaltexture
@@ -290,7 +290,7 @@ textures/conveyor/lolcow-white
 }
 textures/conveyor/alien_skin
 {
-	qer_editorimage textures/conveyor/alien_skin-2.jpg
+	qer_editorimage textures/conveyor/alien_skin-2
 	qer_trans .5
 	
 	entityMergable
@@ -310,13 +310,13 @@ textures/conveyor/alien_skin
 	deformVertexes wave 100 sin 1 2 1 .1
 
 	{
-		map textures/conveyor/alien_skin-2.jpg
+		map textures/conveyor/alien_skin-2
 		blendfunc GL_ONE GL_SRC_COLOR
 		tcMod scale .03 .03
 		tcMod scroll .0001 .0001
 	}
 	{
-		map textures/conveyor/alien_skin-3.jpg
+		map textures/conveyor/alien_skin-3
 		blendfunc GL_DST_COLOR GL_ONE
 		tcMod turb .1 .1 0 .01
 		tcMod scale .5 .5
@@ -331,12 +331,12 @@ textures/conveyor/alien_skin
 }
 textures/conveyor/black_no_s
 {
-	qer_editorimage textures/conveyor/black.jpg
+	qer_editorimage textures/conveyor/black
 	surfaceparm nomarks
 	surfaceparm noimpact
 
 	{
-		map textures/conveyor/black.jpg
+		map textures/conveyor/black
 	}
 	{
 		map $lightmap
@@ -351,7 +351,7 @@ textures/conveyor/fridge
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/fridge.jpg
+		map textures/conveyor/fridge
 		blendfunc filter
 	}
 }
@@ -362,7 +362,7 @@ textures/conveyor/sf1
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/sf1.jpg
+		map textures/conveyor/sf1
 		blendfunc filter
 	}
 }
@@ -373,7 +373,7 @@ textures/conveyor/sf2
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/sf2.jpg
+		map textures/conveyor/sf2
 		blendfunc filter
 	}
 }
@@ -384,7 +384,7 @@ textures/conveyor/ad
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/ad.jpg
+		map textures/conveyor/ad
 		blendfunc filter
 	}
 }
@@ -395,7 +395,7 @@ textures/conveyor/cexports
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/cexports.jpg
+		map textures/conveyor/cexports
 		blendfunc filter
 	}
 }
@@ -406,7 +406,7 @@ textures/conveyor/08
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/08.jpg
+		map textures/conveyor/08
 		blendfunc filter
 	}
 }
@@ -417,7 +417,7 @@ textures/conveyor/onlythebest
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/onlythebest.jpg
+		map textures/conveyor/onlythebest
 		blendfunc filter
 	}
 }
@@ -428,7 +428,7 @@ textures/conveyor/names
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/conveyor/names.jpg
+		map textures/conveyor/names
 		blendfunc filter
 	}
 }
